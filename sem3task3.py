@@ -13,14 +13,12 @@ def find_max_number(list_2):
     for i in list_2:
         if i > max_number:
             max_number = i
-            # print(max_number)
     return(max_number)
 def find_min_number(list_2):
     min_number = list_2[0]
     for i in list_2:
         if i < min_number:
             min_number = i
-            # print(min_number)
     return(min_number)
 list_1 = [1.1, 1.2, 3.1, 5, 10.01]
 list_2 = []
